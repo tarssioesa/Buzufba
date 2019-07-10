@@ -10,7 +10,7 @@ require(inspectdf)
 load("Data/buzufba.RData")
 
 # Gráfico 
-
+  
 social <- dados %>% 
   select(2,3,5,11) %>% 
   mutate(id = factor(seq(1,nrow(dados)))) %>% 
